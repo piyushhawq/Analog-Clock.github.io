@@ -34,6 +34,7 @@ body {
   margin: 0;
 }
 
+/*-------------------- dark or light mode -----------------------*/
 .toggle {
   cursor: pointer;
   background-color: var(--primary-color);
@@ -48,7 +49,7 @@ body {
 .toggle:focus {
   outline: none;
 }
-
+/* -----------------------------clock --------------------------------*/
 .clock-container {
   display: flex;
   flex-direction: column;
@@ -118,6 +119,7 @@ width: 300px;
   border-radius: 50%;
 }
 
+/* -----------------------------date & time------------------------------------ */
 .time {
   font-size: 60px;
 }
